@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  /* Colors */
+  --slate-900: #1f314f;
+  --slate-500: #68778d;
+  --slate-300: #d5e1ef;
+  --blue-600: #2c7dfa;
+  --blue-500: #3685ff;
+  --white: #ffffff;
+  /* Spacing */
+  --spacing-500: 4rem;
+  --spacing-300: 2.4rem;
+  --spacing-200: 1.6rem;
+  /* Font Size */
+  --text-preset-1: 2.2rem;
+  --text-preset-2: 1.5rem;
+}
+
+body {
+  background-color: var(--slate-300);
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

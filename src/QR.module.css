@@ -1,0 +1,7 @@
+.img {
+  display: block;
+  width: 28.8rem;
+  height: 28.8rem;
+  border-radius: 1rem;
+  margin-bottom: var(--spacing-300);
+}
