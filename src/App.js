@@ -7,7 +7,7 @@ function App() {
   return (
     <Content>
       <Qr />
-      <Text />
+      {/* <Text /> */}
     </Content>
   );
 }
